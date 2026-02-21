@@ -8,10 +8,8 @@ import { theme } from './src/theme';
 export default function App() {
   return (
     <SafeAreaProvider>
-      <NavigationContainer>
-        <AppNavigator />
-        <StatusBar style={theme.statusBarStyle as any} />
-      </NavigationContainer>
+      <AppNavigator />
+      <StatusBar style={theme.statusBarStyle as any} />
     </SafeAreaProvider>
   );
 }
